@@ -3,9 +3,12 @@
   "resourceVersion": "1.6",
   "name": "Spaceshooter",
   "resources": [
+    {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_powerup","path":"sprites/spr_powerup/spr_powerup.yy",},"order":1,},
+    {"id":{"name":"spr_tiro2","path":"sprites/spr_tiro2/spr_tiro2.yy",},"order":3,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
