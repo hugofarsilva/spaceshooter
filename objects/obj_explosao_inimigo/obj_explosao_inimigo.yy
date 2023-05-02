@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_impacto_tiro",
+  "name": "obj_explosao_inimigo",
   "spriteId": {
-    "name": "spr_impacto_tiro",
-    "path": "sprites/spr_impacto_tiro/spr_impacto_tiro.yy",
+    "name": "spr_explosao_inimigo",
+    "path": "sprites/spr_explosao_inimigo/spr_explosao_inimigo.yy",
   },
   "solid": false,
   "visible": true,
