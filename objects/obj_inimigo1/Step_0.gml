@@ -4,7 +4,7 @@
 //Me destruindo ao sair da room
 if (y > room_height + 100)
 {
-	instance_destroy();
+	instance_destroy(id, false);
 }
 
 

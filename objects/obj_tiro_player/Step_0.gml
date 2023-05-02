@@ -3,7 +3,8 @@
 
 if (y < -200)
 {
-	instance_destroy();	
+	instance_destroy(id, false);	
+	
 }
 
 
