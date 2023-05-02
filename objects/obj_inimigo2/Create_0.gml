@@ -5,12 +5,13 @@
 // Inherit the parent event
 event_inherited();
 
+pontos = 20;
 //Criando a minha variável de controle pra saber se eu posso mudar de lado
 posso_me_mover_para_lado = true;
 
 atirando = function()
 {
-	if (y >= 64)
+	if (y >= 64 and y < room_height)
 	{
 		instance_create_layer(x, y + sprite_height/3, "Tiros", obj_tiro_inimigo2);
 	}
