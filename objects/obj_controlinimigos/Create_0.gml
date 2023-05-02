@@ -26,6 +26,27 @@ ganha_pontos = function(_pontos)
 	}
 }
 
+//Criando o método para gerar inimigos
+cria_inimigo = function()
+{
+	//Definindo a posição X e Y do meu inimigo
+	var _x = irandom_range(50, room_width - 50);
+	var _y = irandom_range(-100, -1500)
+
+	//Criando o inimigo com base no level
+	//A chance de criar um inimigo mais forte depende do level
+	var chance = random_range(0, level);
+	//Definindo qual inimigo criar
+	var inimigo = obj_inimigo1;
+	//Se o valor da chance for maior do que 2 crio o inimigo 2
+	if (chance > 2)
+	{
+		inimigo = obj_inimigo2;
+	}
+	//Criando o inimigo na posição definida
+	instance_create_layer(_x, _y, "Inimigos", inimigo);
+}
+
 
 
 
