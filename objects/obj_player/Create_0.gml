@@ -4,17 +4,18 @@
 #region Variáveis
 
 vel = 4;
-
+espera_tiro = room_speed;
 #endregion
 
 #region Atirando
 
 atirando = function()
 {
-	var fire = keyboard_check_pressed(vk_space)
+	var fire = keyboard_check(vk_space)
 
-	if (fire)
+	if (fire and !alarm[0])
 	{
+		alarm[0] = espera_tiro;
 		instance_create_layer(x, y - sprite_height/3, "Tiros", obj_tiro_player)
 	}
 }

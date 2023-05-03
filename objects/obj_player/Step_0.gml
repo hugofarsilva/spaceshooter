@@ -17,3 +17,4 @@ y += (down - up) * vel;
 #endregion
 
 atirando();
+
