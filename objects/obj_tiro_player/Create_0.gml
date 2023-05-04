@@ -5,6 +5,7 @@ vspeed = -10;
 image_xscale = 3;
 image_xscale = 3;
 cores = choose(c_yellow, c_red, c_lime, c_fuchsia, c_aqua, c_green, c_olive, c_orange, c_maroon);
+brilho = spr_brilho_tiro1;
 //alarm[0] = 2;
 
 
