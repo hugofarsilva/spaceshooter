@@ -17,7 +17,7 @@ y += (down - up) * vel;
 #endregion
 
 atirando();
-
+/*
 if (keyboard_check_pressed(vk_numpad1))
 {
 	if (level_tiro < 5)
