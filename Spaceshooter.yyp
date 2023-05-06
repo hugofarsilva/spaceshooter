@@ -28,6 +28,7 @@
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},"order":1,},
     {"id":{"name":"spr_bg_extra_3","path":"sprites/spr_bg_extra_3/spr_bg_extra_3.yy",},"order":1,},
     {"id":{"name":"obj_controlinimigos","path":"objects/obj_controlinimigos/obj_controlinimigos.yy",},"order":5,},
+    {"id":{"name":"obj_powerup","path":"objects/obj_powerup/obj_powerup.yy",},"order":1,},
     {"id":{"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

@@ -4,7 +4,7 @@
 
 // Inherit the parent event
 event_inherited();
-
+chance = 30;
 pontos = 20;
 //Criando a minha variável de controle pra saber se eu posso mudar de lado
 posso_me_mover_para_lado = true;

@@ -3,10 +3,13 @@
 
 #region Variáveis
 
-vel = 4;
-espera_tiro = room_speed/2;
+//Velocidade - 0.5			- Limite = 10 //45%
+//Espera tiro - 10%			- Limite = 20 //45%
+//Level tiro - 1			- Limite = 5  //10%
+
+vel = 5;
+espera_tiro = room_speed;
 level_tiro = obj_controlinimigos.level;
-y_tiro = y - sprite_height/3;
 
 #endregion
 
@@ -15,7 +18,8 @@ y_tiro = y - sprite_height/3;
 atirando = function()
 {
 	var fire = keyboard_check(vk_space)
-	
+	var y_tiro = y - sprite_height/3;
+
 	if (fire and !alarm[0])
 	{
 		alarm[0] = espera_tiro;
@@ -55,10 +59,11 @@ atirando = function()
 		}
 	}
 }
+
 //Método tiro 2
 tiro2 = function()
 {
-	
+	var y_tiro = y - sprite_height/3;
 	var tiro_1 = instance_create_layer(x - 60, y_tiro, "Tiros", obj_tiro2_player);
 	//Fazendo o tiro 1 ir para a esquerda
 	tiro_1.hspeed = -5;
@@ -71,6 +76,7 @@ tiro2 = function()
 //Método tiro 4
 tiro4 = function()
 {
+	var y_tiro = y - sprite_height/3;
 	var direcao = 75;
 	repeat(3)
 	{
@@ -86,6 +92,25 @@ tiro4 = function()
 }
 #endregion
 
+///@method level_up(chance)
+level_up = function(_chance)
+{
+	if (_chance >= 90 && level_tiro < 5)
+	{
+		//Aumentando o level do tiro SE o level do tiro for menor do que 5
+		level_tiro++;
+	}
+	else if (_chance >= 45 && vel < 10)
+	{
+		//Aumentando a velocidade
+		vel += .5; 
+	}
+	else if (_chance < 45 && espera_tiro >= 20)
+	{
+		//Diminuindo a espera do tiro em 10%
+		espera_tiro *= 0.9;
+	}
+}
 
 
 

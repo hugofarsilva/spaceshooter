@@ -11,6 +11,8 @@ if(instance_exists(obj_controlinimigos))
 	obj_controlinimigos.ganha_pontos(pontos);
 }
 
+dropa_item(chance);
+
 
 
 
