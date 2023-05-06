@@ -10,6 +10,21 @@ chance = random(100);
 
 speed = 2;
 direction = irandom(359);
-cores = choose(c_red, c_yellow, c_green);
 
+//Iniciando o Alarme para sumir o powerup
+alarm[0] = room_speed;
+
+//Dependendo da chance eu mudo de cor
+if (chance >= 90)
+{
+	cor = c_maroon;
+}
+else if (chance > 45)
+{
+	cor = c_yellow;
+}
+else
+{
+	cor = c_aqua;
+}
 
