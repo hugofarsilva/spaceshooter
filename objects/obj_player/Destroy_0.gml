@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy();
+instance_create_layer(x, y, "Player", obj_explosao_inimigo);
 
-other.perde_vida();
+
 
 
 

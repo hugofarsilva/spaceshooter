@@ -10,7 +10,7 @@
 vel = 5;
 espera_tiro = room_speed;
 level_tiro = obj_controlinimigos.level;
-
+vida = 3;
 #endregion
 
 #region Atirando
@@ -112,8 +112,18 @@ level_up = function(_chance)
 	}
 }
 
-
-
+///@method perde_vida()
+perde_vida = function()
+{
+	if (vida > 0)
+	{
+		vida --;
+	}
+	else
+	{
+		instance_destroy();
+	}
+}
 
 
 

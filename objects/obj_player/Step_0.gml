@@ -29,3 +29,4 @@ if (keyboard_check_pressed(ord("E")))
 
 atirando();
 
+show_debug_message(vida);

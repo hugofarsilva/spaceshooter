@@ -9,3 +9,5 @@ other.perde_vida();
 
 
 
+
+

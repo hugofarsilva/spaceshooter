@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Se alvo for = a noone se destroi
-if (!alvo)
+if (!alvo or !instance_exists(alvo))
 {
 	instance_destroy();
 }
