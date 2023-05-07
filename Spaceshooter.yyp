@@ -7,6 +7,7 @@
     {"id":{"name":"spr_tiro_inimigo2","path":"sprites/spr_tiro_inimigo2/spr_tiro_inimigo2.yy",},"order":3,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},"order":0,},
+    {"id":{"name":"sq_game_over","path":"sequences/sq_game_over/sq_game_over.yy",},"order":1,},
     {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},"order":4,},
     {"id":{"name":"sq_gameover","path":"sequences/sq_gameover/sq_gameover.yy",},"order":0,},
     {"id":{"name":"obj_explosao_inimigo","path":"objects/obj_explosao_inimigo/obj_explosao_inimigo.yy",},"order":1,},

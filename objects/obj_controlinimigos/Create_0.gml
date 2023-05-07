@@ -13,6 +13,7 @@ level = 1;
 //Quantos pontos eu preciso para o próximo level
 proximo_level = 100;
 
+sequencia = true;
 //Criando um método para ganhar pontos
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos)
