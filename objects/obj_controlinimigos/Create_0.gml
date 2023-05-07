@@ -32,7 +32,8 @@ cria_inimigo = function()
 {
 	//Definindo a posição X e Y do meu inimigo
 	var _x = irandom_range(50, room_width - 50);
-	var _y = irandom_range(-100, -1500)
+	//Aumentando o limite com base no level do jogo
+	var _y = irandom_range(-100, -1500 - level * 800)
 
 	//Criando o inimigo com base no level
 	//A chance de criar um inimigo mais forte depende do level

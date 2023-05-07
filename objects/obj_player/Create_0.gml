@@ -11,6 +11,7 @@ vel = 5;
 espera_tiro = room_speed;
 level_tiro = obj_controlinimigos.level;
 vida = 3;
+escudo = 3;
 #endregion
 
 #region Atirando
