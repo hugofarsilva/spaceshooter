@@ -19,9 +19,12 @@ y += (down - up) * vel;
 //Criando o escudo
 if (keyboard_check_pressed(ord("E")))
 {
-	var escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
-	//Eu sou o alvo do escudo
-	escudo.alvo = id;
+	if (!instance_exists(obj_escudo))
+	{
+		var escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
+		//Eu sou o alvo do escudo
+		escudo.alvo = id;
+	}
 }
 
 atirando();
