@@ -22,6 +22,7 @@
     {"id":{"name":"snd_impactotiro","path":"sounds/snd_impactotiro/snd_impactotiro.yy",},"order":0,},
     {"id":{"name":"spr_inimigo2","path":"sprites/spr_inimigo2/spr_inimigo2.yy",},"order":1,},
     {"id":{"name":"obj_tiro2_player","path":"objects/obj_tiro2_player/obj_tiro2_player.yy",},"order":3,},
+    {"id":{"name":"screenshake","path":"scripts/screenshake/screenshake.yy",},"order":0,},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},"order":2,},
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},"order":2,},
     {"id":{"name":"obj_tiro_inimigo2","path":"objects/obj_tiro_inimigo2/obj_tiro_inimigo2.yy",},"order":2,},

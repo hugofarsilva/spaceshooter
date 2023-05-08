@@ -14,6 +14,10 @@ down = keyboard_check(vk_down);
 x += (right - left) * vel;
 y += (down - up) * vel;
 
+//Impedindo o player de sair da tela
+x = clamp(x, 64, 1844);
+y = clamp(y, 64, 1024);
+
 #endregion
 
 //Criando o escudo

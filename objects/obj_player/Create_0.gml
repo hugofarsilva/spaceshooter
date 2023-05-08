@@ -119,6 +119,7 @@ perde_vida = function()
 	if (vida > 0)
 	{
 		vida --;
+		screenshake(5);
 	}
 	else
 	{
