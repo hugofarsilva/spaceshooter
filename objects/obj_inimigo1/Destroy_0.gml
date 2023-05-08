@@ -13,6 +13,9 @@ if(instance_exists(obj_controlinimigos))
 
 dropa_item(chance);
 
+//Criando o screenshake
+var screenshake = instance_create_layer(0, 0, layer, obj_screenshake);
+screenshake.shake = 10;
 
 
 

@@ -7,7 +7,7 @@ view_yport[0] = random_range(-shake, shake);
 
 //Diminuindo o valor do screenshake
 //Multiplicando por 0.95 ele perde 5% por step
-shake *= 0.97;
+shake *= 0.9;
 
 //Se o valor do shake for menor do que 0.5 ele se destroi
 
