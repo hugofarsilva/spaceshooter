@@ -18,7 +18,7 @@ sequencia = true;
 ///@method ganha_pontos(pontos)
 ganha_pontos = function(_pontos)
 {
-	pontos += _pontos;
+	pontos += _pontos * level;
 	//Ganhando level SE os meus pontos forem maior que proximo_level
 	if (pontos > proximo_level)
 	{

@@ -7,3 +7,14 @@ function screenshake(_shake)
 	screen.shake = _shake;
 	
 }
+
+
+//Função para ganhando_pontos(_pontos)
+function ganhando_pontos(_pontos)
+{
+	//Checando se o control existe
+	if (instance_exists(obj_controlinimigos))
+	{
+		obj_controlinimigos.ganha_pontos(_pontos);
+	}
+}

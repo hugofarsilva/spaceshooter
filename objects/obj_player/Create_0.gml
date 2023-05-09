@@ -96,20 +96,43 @@ tiro4 = function()
 ///@method level_up(chance)
 level_up = function(_chance)
 {
-	if (_chance >= 90 && level_tiro < 5)
+	if (_chance >= 90)
 	{
 		//Aumentando o level do tiro SE o level do tiro for menor do que 5
-		level_tiro++;
+		if (level_tiro < 5)
+		{
+			level_tiro++;
+		}
+		//Se chegou no máximo eu ganho pontos
+		else
+		{
+			ganhando_pontos(100);
+		}
 	}
-	else if (_chance >= 45 && vel < 10)
+	
+	else if (_chance >= 45)
 	{
-		//Aumentando a velocidade
-		vel += .5; 
+		if (vel < 10)
+		{
+			//Aumentando a velocidade
+			vel += .5; 
+		}
+		else
+		{
+			ganhando_pontos(10);
+		}
 	}
-	else if (_chance < 45 && espera_tiro >= 20)
+	else if (_chance < 45)
 	{
-		//Diminuindo a espera do tiro em 10%
-		espera_tiro *= 0.9;
+		if (espera_tiro >= 15)
+		{
+			//Diminuindo a espera do tiro em 10%
+			espera_tiro *= 0.9;
+		}
+		else
+		{
+			ganhando_pontos(10);
+		}
 	}
 }
 
@@ -124,6 +147,7 @@ perde_vida = function()
 	else
 	{
 		instance_destroy();
+		screenshake(15);
 	}
 }
 
