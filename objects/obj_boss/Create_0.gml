@@ -3,7 +3,7 @@
 
 
 
-estado_atual = "estado3"
+estado_atual = "estado4"
 
 #region Variáveis
 
@@ -12,6 +12,8 @@ espera_tiro = 0;
 delay_estado = room_speed * 8;
 espera_estado = delay_estado;
 velocidade_horizontal = 3;
+vida_max = 2000;
+vida_atual = vida_max;
 
 #endregion
 

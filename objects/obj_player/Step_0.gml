@@ -20,17 +20,7 @@ y = clamp(y, 64, 1024);
 
 #endregion
 
-//Criando o escudo
-if (keyboard_check_pressed(ord("E")))
-{
-	if (!instance_exists(obj_escudo) and escudo > 0)
-	{
-		var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
-		//Eu sou o alvo do escudo
-		_escudo.alvo = id;
-		escudo--;
-	}
-}
+cria_escudo();
 
 atirando();
 

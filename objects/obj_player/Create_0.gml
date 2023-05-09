@@ -12,6 +12,7 @@ espera_tiro = room_speed;
 level_tiro = obj_controlinimigos.level;
 vida = 3;
 escudo = 3;
+meu_escudo = noone;
 #endregion
 
 #region Atirando
@@ -139,15 +140,36 @@ level_up = function(_chance)
 ///@method perde_vida()
 perde_vida = function()
 {
-	if (vida > 0)
+	//Só vou perder vida se o meu_escudo é noone
+	if (!meu_escudo)
 	{
-		vida --;
-		screenshake(5);
+		if (vida > 0)
+		{
+			vida --;
+			screenshake(5);
+		}
+		else
+		{
+			instance_destroy();
+			screenshake(15);
+		}
 	}
-	else
+}
+
+cria_escudo = function()
+{
+	//Criando o escudo
+	if (keyboard_check_pressed(ord("E")))
 	{
-		instance_destroy();
-		screenshake(15);
+		if (!meu_escudo and escudo > 0)
+		{
+			var _escudo = instance_create_layer(x, y, "Escudo", obj_escudo);
+			//Eu sou o alvo do escudo
+			_escudo.alvo = id;
+			//Avisando que esse escudo é meu
+			meu_escudo = _escudo;
+			escudo--;
+		}
 	}
 }
 
