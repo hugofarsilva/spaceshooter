@@ -4,7 +4,7 @@
 //Criando o tiro
 instance_create_layer(x, y, "Tiros", obj_tirominion);
 
-
+alarm[0] = room_speed/2;
 
 
 

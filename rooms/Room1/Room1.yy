@@ -20,6 +20,8 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Escudo","instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Boss","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76787DE9","properties":[],"isDnd":false,"objectId":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":223.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A285B89","properties":[],"isDnd":false,"objectId":{"name":"obj_bossminion","path":"objects/obj_bossminion/obj_bossminion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":123.0,"y":549.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64FC2321","properties":[],"isDnd":false,"objectId":{"name":"obj_bossminion","path":"objects/obj_bossminion/obj_bossminion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1806.0,"y":566.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4AD41760","properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":960.0,},
@@ -40,6 +42,8 @@
     {"name":"inst_1690AEC5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4AD41760","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_76787DE9","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1A285B89","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_64FC2321","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
