@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 //Ficando visível em 1 segundo
-//Se eu ainda não estou visível
-if (image_alpha < 1)
+//Se eu ainda não estou visível e se meu alarme ainda não rodou
+if (image_alpha < 1 && !primeiro_tiro)
 {
 	image_alpha += 1/room_speed;
 }

@@ -14,7 +14,7 @@ espera_estado = delay_estado;
 velocidade_horizontal = 3;
 vida_max = 2000;
 vida_atual = vida_max;
-
+criar_minions = true;
 #endregion
 
 //Método para o tiro 1
@@ -39,6 +39,27 @@ tiro02 = function()
 	instance_create_layer(x, sprite_height - 25, "Tiros", obj_tiro_inimigo2);
 }
 
+//Método para troca de estados
+troca_estado = function()
+{
+	//Diminuindo a espera do estado
+	espera_estado--;
+	if (espera_estado <= 0)
+	{
+		//Vou escolher outro estado SE minha vida não for menor do que metade
+		if (vida_atual < vida_max / 2)
+		{
+			estado_atual = choose("estado1", "estado2", "estado3");
+		}
+		else //Estou com metade ou menos da minha vida máxima
+		{
+			estado_atual = choose("estado1", "estado2", "estado3", "estado4");
+		}
+		espera_estado = delay_estado;
+		//Pode criar minions
+		criar_minions = true;
+	}
+}
 
 estado_01 = function()
 {
@@ -87,5 +108,25 @@ estado_03 = function()
 	if (espera_tiro == delay_tiro + round(delay_tiro/2))
 	{
 		tiro01(true);
+	}
+}
+
+estado_04 = function()
+{
+	//Trocando a spite do boss
+	sprite_index = spr_boss_surgindo;
+	
+	//Criando os Minions SE eu posso criar minions
+	if (criar_minions)
+	{
+		//Esquerda
+		var _minion = instance_create_layer(128, 672, "inimigos", obj_bossminion);
+		_minion.image_angle = 90;
+		//Direita
+		_minion = instance_create_layer(1760, 672, "inimigos", obj_bossminion);
+		_minion.image_angle = -90;
+		
+		//Já criei os minions, não posso criar mais
+		criar_minions = false;
 	}
 }
