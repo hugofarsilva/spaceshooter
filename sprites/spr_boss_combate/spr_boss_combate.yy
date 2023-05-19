@@ -18,7 +18,7 @@
   "VTile": false,
   "For3D": false,
   "width": 564,
-  "height": 309,
+  "height": 432,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -27,9 +27,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28831a44-fba3-483b-bd05-5fa1eb6a41b7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3431434b-9b62-4037-bd59-c87d9a22a7ad",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29e0fda5-0280-4889-8746-9e47b0ef6161",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8fb8ad70-4778-4274-b831-14970e0ff474",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4d445f3-f6bb-45bc-b5b6-8d8eca95af79",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da2e853c-098b-40dd-a744-927226132e5e",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -46,9 +46,9 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"36695f64-069f-47d2-a405-d05c4b167baf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28831a44-fba3-483b-bd05-5fa1eb6a41b7","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"fe01c430-2fc2-4382-b314-761911c19a17","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3431434b-9b62-4037-bd59-c87d9a22a7ad","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"9550c99c-5c5d-4fc5-9f65-07c91c12646e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29e0fda5-0280-4889-8746-9e47b0ef6161","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7360c460-9ead-47c9-888d-df93db04f9ef","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8fb8ad70-4778-4274-b831-14970e0ff474","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ba654214-1cdc-4934-818f-9132980e66a2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4d445f3-f6bb-45bc-b5b6-8d8eca95af79","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"05998d47-5aef-4936-91a9-2c781ca56b82","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da2e853c-098b-40dd-a744-927226132e5e","path":"sprites/spr_boss_combate/spr_boss_combate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -62,12 +62,12 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 282,
-    "yorigin": 154,
+    "yorigin": 216,
     "eventToFunction": {},
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9a202fed-d7b9-4c9a-95d6-5b830a77ed47","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ac40ce4b-db70-48d5-8fdc-041cd41d2cca","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {

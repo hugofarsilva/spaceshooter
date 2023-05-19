@@ -3,7 +3,7 @@
 
 
 
-estado_atual = "estado4"
+estado_atual = choose("estado1", "estado2", "estado3");
 
 #region Variáveis
 
@@ -12,8 +12,9 @@ espera_tiro = 0;
 delay_estado = room_speed * 8;
 espera_estado = delay_estado;
 velocidade_horizontal = 3;
-vida_max = 2000;
-vida_atual = vida_max;
+vida_max = 1500;
+vida_atual = 1;
+carregando = true;
 criar_minions = true;
 #endregion
 
@@ -47,7 +48,7 @@ troca_estado = function()
 	if (espera_estado <= 0)
 	{
 		//Vou escolher outro estado SE minha vida não for menor do que metade
-		if (vida_atual < vida_max / 2)
+		if (vida_atual > vida_max / 2)
 		{
 			estado_atual = choose("estado1", "estado2", "estado3");
 		}
@@ -115,6 +116,9 @@ estado_04 = function()
 {
 	//Trocando a spite do boss
 	sprite_index = spr_boss_surgindo;
+	
+	//Indo para o meio da tela
+	x += sign(room_width / 2 - x);
 	
 	//Criando os Minions SE eu posso criar minions
 	if (criar_minions)

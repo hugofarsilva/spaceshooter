@@ -18,3 +18,12 @@ function ganhando_pontos(_pontos)
 		obj_controlinimigos.ganha_pontos(_pontos);
 	}
 }
+
+
+function destroi_seq()
+{
+	var elementos = layer_get_all_elements("Boss_entrada");
+	layer_sequence_destroy(elementos[0]);
+	//Criando o Boss
+	instance_create_layer(960, 288, "boss", obj_boss);
+}
