@@ -37,6 +37,7 @@
     {"id":{"name":"spr_inimigo1","path":"sprites/spr_inimigo1/spr_inimigo1.yy",},"order":0,},
     {"id":{"name":"spr_brilho_inimigo1","path":"sprites/spr_brilho_inimigo1/spr_brilho_inimigo1.yy",},"order":3,},
     {"id":{"name":"spr_tiro2_player","path":"sprites/spr_tiro2_player/spr_tiro2_player.yy",},"order":1,},
+    {"id":{"name":"sq_boss_morte","path":"sequences/sq_boss_morte/sq_boss_morte.yy",},"order":3,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},"order":5,},
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},"order":1,},

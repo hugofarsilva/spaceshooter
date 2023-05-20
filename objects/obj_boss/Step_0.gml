@@ -1,14 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (carregando)
-{
-	vida_atual += vida_max * 0.01;
-	if (vida_atual >= vida_max)
-	{
-		carregando = false;
-	}
-}
+
 
 //Checando se eu não estou no estado 4
 if (estado_atual != "estado4")
