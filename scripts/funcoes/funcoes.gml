@@ -27,3 +27,14 @@ function destroi_seq()
 	//Criando o Boss
 	instance_create_layer(960, 288, "boss", obj_boss);
 }
+
+//Criando a animação do player
+function cria_seq()
+{
+	if (instance_exists(obj_player))
+	{
+		layer_sequence_create("Sequences", obj_player.x, obj_player.y, sq_level_end);
+		//Destruindo o Player
+		instance_destroy(obj_player, false);
+	}
+}

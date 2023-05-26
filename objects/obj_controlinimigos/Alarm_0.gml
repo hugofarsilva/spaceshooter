@@ -5,10 +5,24 @@
 //Criando os inimigos
 if (!instance_exists(obj_inimigo1))
 {
-	var repetir = 10 * level;
-	repeat(repetir)
+	if (level < 2)
 	{
-		cria_inimigo();
+		var repetir = 10 * level;
+		//Só criar inimigos se eu ainda não cheguei no level 10
+		repeat(repetir)
+		{
+			cria_inimigo();
+		}
+	}
+	else
+	{
+		//Criar o boss (a animação de entrada do boss)
+		//Garantir que a animação só seja criada uma vez
+		if (sequencia)
+		{
+			layer_sequence_create("Boss_entrada", 960, 576, sq_bossentrando);
+			sequencia = false;
+		}
 	}
 }
 
