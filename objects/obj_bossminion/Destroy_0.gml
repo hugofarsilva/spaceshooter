@@ -7,7 +7,7 @@ audio_play_sound(snd_impactotiro, 10, false);
 
 screenshake(10);
 
-
+global.totalInimigos ++;
 
 
 

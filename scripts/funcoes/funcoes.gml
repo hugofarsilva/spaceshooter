@@ -38,3 +38,10 @@ function cria_seq()
 		instance_destroy(obj_player, false);
 	}
 }
+
+function cria_transicao()
+{
+	//Criando o objeto de transição com o destino da room inicial
+	var _transicao = instance_create_layer(0, 0, "instances", obj_transicao);
+	_transicao.destino = rm_inicio;
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room1",
+  "name": "rm_level1",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -41,9 +41,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1690AEC5","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_4AD41760","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_76787DE9","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1690AEC5","path":"rooms/rm_level1/rm_level1.yy",},
+    {"name":"inst_4AD41760","path":"rooms/rm_level1/rm_level1.yy",},
+    {"name":"inst_76787DE9","path":"rooms/rm_level1/rm_level1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

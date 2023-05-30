@@ -12,6 +12,6 @@ dropa_item(chance);
 
 screenshake(10);
 
-
+global.totalInimigos ++;
 
 

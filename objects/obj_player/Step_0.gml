@@ -14,6 +14,12 @@ down = keyboard_check(vk_down);
 x += (right - left) * vel;
 y += (down - up) * vel;
 
+if device_mouse_check_button(0, mb_left)
+{
+	vspeed = 4;
+	hspeed = 4;
+	direction = point_direction(x, y, mouse_x, mouse_y)
+}
 //Impedindo o player de sair da tela
 x = clamp(x, 64, 1844);
 y = clamp(y, 64, 1024);

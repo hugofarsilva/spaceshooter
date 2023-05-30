@@ -150,6 +150,7 @@ perde_vida = function()
 		}
 		else
 		{
+			
 			instance_destroy();
 			screenshake(15);
 		}
