@@ -13,7 +13,7 @@ delay_estado = room_speed * 8;
 espera_estado = delay_estado;
 velocidade_horizontal = 3;
 vida_max = 1500;
-vida_atual = vida_max;
+vida_atual = 2;
 carregando = true;
 criar_minions = true;
 #endregion

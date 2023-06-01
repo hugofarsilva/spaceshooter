@@ -5,7 +5,7 @@
 //Criando os inimigos
 if (!instance_exists(obj_inimigo1))
 {
-	if (level < 10)
+	if (level < 2)
 	{
 		var repetir = 10 * level;
 		//Só criar inimigos se eu ainda não cheguei no level 10

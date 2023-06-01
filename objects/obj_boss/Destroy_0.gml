@@ -8,9 +8,3 @@ global.totalInimigos ++;
 
 ganhando_pontos(200);
 
-//Checando se os pontos são a maior pontuação
-	if (obj_controlinimigos.pontos > global.maxpontos)
-	{
-		global.maxpontos = obj_controlinimigos.pontos;
-	}
-

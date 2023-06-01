@@ -8,11 +8,7 @@ if (!sequencia)
 	var _transicao = instance_create_layer(0, 0, "instances", obj_transicao);
 	_transicao.destino = rm_inicio;
 	
-	//Checando se os pontos são a maior pontuação
-	if (pontos > global.maxpontos)
-	{
-		global.maxpontos = pontos;
-	}
+	
 }
 
 
