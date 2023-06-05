@@ -3,7 +3,7 @@
 
 //Criando a explosão
 instance_create_layer(x, y, "Inimigos", obj_explosao_inimigo);
-audio_play_sound(snd_impactotiro, 10, false);
+
 
 //Rodando o método de ganhar pontos
 ganhando_pontos(pontos);

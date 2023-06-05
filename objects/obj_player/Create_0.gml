@@ -24,6 +24,9 @@ atirando = function()
 
 	if (fire and !alarm[0])
 	{
+		// Criando o som do tiro
+		audio_play_sound(sfx_laser2, 10, false);
+		
 		alarm[0] = espera_tiro;
 		
 		//Tiro do level 1

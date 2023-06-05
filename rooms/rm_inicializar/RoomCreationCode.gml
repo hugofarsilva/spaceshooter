@@ -1,5 +1,5 @@
 //Iniciar as minhas variáveis globais
-
+randomize();
 //Pontuação mais alta
 global.maxpontos = 0;
 //Quantidade de mortes
