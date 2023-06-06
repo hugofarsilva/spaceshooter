@@ -14,5 +14,6 @@ atirando = function()
 	if (y >= 64 and y < room_height)
 	{
 		instance_create_layer(x, y + sprite_height/3, "Tiros", obj_tiro_inimigo2);
+		audio_play_sound(sfx_laser1, 1, false);
 	}
 }

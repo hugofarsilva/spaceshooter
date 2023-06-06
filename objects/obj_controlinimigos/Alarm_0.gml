@@ -22,6 +22,8 @@ if (!instance_exists(obj_inimigo1))
 		{
 			layer_sequence_create("Boss_entrada", 960, 576, sq_bossentrando);
 			sequencia = false;
+			//Parando de tocar a múscica do do level
+			audio_stop_all();
 		}
 	}
 }

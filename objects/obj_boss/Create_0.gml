@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+//Tocando a música do boss
+audio_play_sound(snd_boss_fight, 0, true);
 
 estado_atual = choose("estado1", "estado2", "estado3");
 
@@ -32,12 +33,14 @@ tiro01 = function(_direita)
 	}
 	
 	instance_create_layer(x + _posx, y + 77, "Tiros", obj_tiro_inimigo1);
+	audio_play_sound(sfx_laser1, 1, false);
 }
 
 //Método para o tiro2
 tiro02 = function()
 {
 	instance_create_layer(x, sprite_height - 25, "Tiros", obj_tiro_inimigo2);
+	audio_play_sound(sfx_laser1, 1, false);
 }
 
 //Método para troca de estados

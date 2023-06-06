@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 randomize();
+
+
+
 alarm[0] = room_speed;
 
 //Iniciando o sistema de pontos

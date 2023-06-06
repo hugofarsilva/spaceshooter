@@ -7,7 +7,7 @@ if (pontos > global.maxpontos)
 	global.maxpontos = pontos;
 }
 
-
+audio_stop_all();
 
 
 
